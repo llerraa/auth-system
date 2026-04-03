@@ -15,11 +15,10 @@
 
 ## Запуск проекта (через Docker Desktop)
 
-git clone https://github.com/llerraa/auth-system.git
-cd test_auth
-docker-compose up -d
-
-проект доступен: http://localhost:8080
+- git clone https://github.com/llerraa/auth-system.git
+- cd test_auth
+- docker-compose up -d
+- проект доступен: http://localhost:8080
 
 ## 🗄️ База данных
 
