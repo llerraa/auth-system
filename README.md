@@ -1,8 +1,8 @@
-# 🔐 Система авторизации и регистрации
+# Система авторизации и регистрации
 
 Веб-приложение с системой аутентификации пользователей, реализованное на чистом PHP с использованием Docker.
 
-## 📋 Функционал
+## Функционал
 
 - ✅ Регистрация с валидацией (имя, телефон, email, пароль)
 - ✅ Проверка уникальности email и телефона
@@ -13,38 +13,25 @@
 - ✅ Docker-контейнеризация
 - ✅ Современный адаптивный UI с анимациями
 
-## 🚀 Быстрый старт
+## Запуск проекта (через Docker Desktop)
 
-### Требования
-- Docker Desktop
-
-### Установка и запуск
-
-# Клонируйте репозиторий
-git clone https://github.com/llerraa/auth-system.git
-cd test_auth
-
-# Запустите контейнеры
-docker-compose up -d
-
-# Откройте в браузере
-open http://localhost:8080
+- git clone https://github.com/llerraa/auth-system.git
+- cd test_auth
+- docker-compose up -d
+- проект доступен: http://localhost:8080
 
 ## 🗄️ База данных
 
 Таблица users создаётся автоматически при первом запуске.
-
-# Структура:
-
-id - PRIMARY KEY AUTO_INCREMENT
-name - имя пользователя
-email - уникальный email
-phone - уникальный телефон
-password - хешированный пароль
+- id - PRIMARY KEY AUTO_INCREMENT
+- name - имя пользователя
+- email - уникальный email
+- phone - уникальный телефон
+- password - хешированный пароль
 
 ## 🛠️ Технологии
 
-Backend: PHP 8.2 (нативный, без фреймворков)
-Frontend: HTML5, CSS3 (адаптивный дизайн)
-Database: MySQL 8.0
-Containerization: Docker, Docker Compose
+- Backend: PHP 8.2 (нативный, без фреймворков)
+- Frontend: HTML5, CSS3 (адаптивный дизайн)
+- Database: MySQL 8.0
+- Containerization: Docker, Docker Compose
